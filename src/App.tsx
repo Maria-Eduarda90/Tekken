@@ -1,5 +1,8 @@
+import { AppRouter } from './routes/routes';
+import './styles/global.scss';
+
 export function App() {
   return (
-    <h1>Hello</h1>
+    <AppRouter />
   )
 }
