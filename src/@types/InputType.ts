@@ -5,5 +5,5 @@ export type InputType = DetailedHTMLProps<
   HTMLInputElement
 > & {
   value?: string;
-  onChange?: (value: string) => void;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
