@@ -5,8 +5,9 @@ import { FormEvent, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export function Home(){
-    const [password, setPassword] = useState<string>();
+    const [password, setPassword] = useState<string>("");
     const navigate = useNavigate();
+    console.log(password)
 
     function handleSignIn(e: FormEvent){
         e.preventDefault();
@@ -24,7 +25,7 @@ export function Home(){
         <div className={styles.container}>
             <img src={logo} alt="logo" />
             <form onSubmit={handleSignIn}>
-                <Input value={password} onChange={e => setPassword(e.target.value)} />
+                <Input onChange={e => setPassword(e.target.value)} value={password} />
             </form>
         </div>
     );
