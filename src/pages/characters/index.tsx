@@ -2,15 +2,7 @@ import styles from './styles.module.scss';
 import { Card } from '../../components/Card';
 import { characters } from '../../mock/db';
 import { useState } from 'react';
-
-type CharactersType = {
-    id: string;
-    characteristics: {
-        image: string;
-        name: string;
-        description: string;
-    }
-}
+import { CharactersType } from '../../@types/CharactersType';
 
 export function Characters(){
     const [character, setCharacter] = useState<CharactersType>();
