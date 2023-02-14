@@ -1,11 +1,36 @@
-.characters {
+main {
     display: flex;
     justify-content: space-around;
-    margin-top: 6rem;
-    .avatar {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    margin-top: 2rem;
+    .characters {
+        .avatar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            width: 30rem;
+            filter: drop-shadow(5px 5px 5px #b00404);
+        }
+    }
+    .wrapper {
         width: 30rem;
-        filter: drop-shadow(5px 5px 5px #b00404);
+        text-align: center;
+        img {
+            width: 22rem;
+            z-index: -999;
+            position: relative;
+        }
+
+        .containerDescription {
+            background-color: #141414;
+            filter: drop-shadow(5px 5px 90px #eb0404);
+            margin-top: -8rem;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+
+            h1 {
+                color: #c50303;
+                filter: drop-shadow(5px 5px 5px #930000);
+                margin-bottom: 1rem;
+            }
+        }
     }
 }
