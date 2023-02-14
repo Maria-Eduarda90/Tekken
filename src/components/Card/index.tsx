@@ -5,11 +5,12 @@ type CardType = {
     characteristics: {
         name: string;
     }
+    onClick: () => void;
 }
 
-export function Card({ avatar, characteristics }: CardType){
+export function Card({ avatar, characteristics, ...props }: CardType){
     return(
-        <div className={styles.card}>
+        <div className={styles.card} {...props}>
             <div className={styles.wrapper}>
                 <img src={avatar} alt={characteristics.name} />
             </div>
