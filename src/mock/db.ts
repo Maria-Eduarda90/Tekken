@@ -5,7 +5,7 @@ import HeihachiImage from "../img/Heihachi-Mishima.png";
 import JinAvatar from "../img/jin.jpg";
 import JinImage from "../img/Jin-Kazama.png";
 import LarsAvatar from "../img/lars.jpg";
-import LarsImage from "../img/Lars-Alexanderson.png";
+import LarsImage from "../img/Lars-Alexandersson.png";
 import LiliAvatar from "../img/lili.jpg";
 import LiliImage from "../img/Lili-De-Rochefort.png";
 import PaulAvatar from "../img/paul.jpg";
