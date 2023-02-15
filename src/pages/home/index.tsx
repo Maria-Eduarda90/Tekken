@@ -7,7 +7,6 @@ import { useNavigate } from 'react-router-dom';
 export function Home(){
     const [password, setPassword] = useState<string>("");
     const navigate = useNavigate();
-    console.log(password)
 
     function handleSignIn(e: FormEvent){
         e.preventDefault();
