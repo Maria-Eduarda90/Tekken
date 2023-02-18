@@ -22,7 +22,7 @@ $ Tekken123
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Maria-Eduarda90/Tekken
+$ git clone <https://github.com/Maria-Eduarda90/Tekken>
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd Tekken
