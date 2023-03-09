@@ -8,8 +8,8 @@ export function Characters(){
     const [character, setCharacter] = useState<CharactersType>();
 
     function clickOnTheCharacter(id: string){
-        const teste = characters.find(c => c.id === id);
-        setCharacter(teste);
+        const tekkenCharacters = characters.find(c => c.id === id);
+        setCharacter(tekkenCharacters);
     }
 
     return(
